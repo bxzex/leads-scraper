@@ -1,5 +1,5 @@
 {
-  "name": "google-business-scout",
+  "name": "leads-scraper",
   "version": "1.0.0",
   "description": "A powerful Google Business scraper and lead generator.",
   "main": "server.js",

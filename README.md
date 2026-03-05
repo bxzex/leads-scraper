@@ -1,4 +1,4 @@
-# Business Scout
+# Leads Scraper
 
 A Node.js application for scraping Google Business information, including website contact details and social media links.
 
