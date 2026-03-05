@@ -1,32 +1,17 @@
 # Leads Scraper
 
-A Node.js application for scraping Google Business information, including website contact details and social media links.
+A powerful tool to extract business leads, contact info, and social links from Google.
 
 ## Features
+- **Maps Extraction**: Scrape business data directly.
+- **Contact Discovery**: Automatically finds emails and social media.
+- **Easy Export**: Save everything to CSV.
 
-- Google Maps business extraction
-- Automated contact discovery (email, social media)
-- Brand logo identification and download
-- CSV data export
-- Local web dashboard
+## Getting Started
+1. `npm install`
+2. `npx playwright install chromium`
+3. `npm run dev`
+4. Open `localhost:3000`
 
-## Installation
-
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-2. Install Playwright browser:
-   ```bash
-   npx playwright install chromium
-   ```
-
-3. Start server:
-   ```bash
-   npm run dev
-   ```
-
-## Usage
-
-Access the dashboard at `http://localhost:3000`. Enter a search term and location to begin the scraping process.
+---
+Built by [bxzex](https://github.com/bxzex).
