@@ -1,17 +1,19 @@
-LEADS SCRAPER
+# Business Scout
 
-A powerful tool to extract business leads, contact info, and social links from Google.
+Finds local businesses on Google Maps and collects their contact details into a spreadsheet.
 
-FEATURES
-- Maps Extraction: Scrape business data directly.
-- Contact Discovery: Automatically finds emails and social media.
-- Easy Export: Save everything to CSV.
+Live: https://bxzex.github.io/leads-scraper/
 
-GETTING STARTED
-1. npm install
-2. npx playwright install chromium
-3. npm run dev
-4. Open localhost:3000
+Search for a kind of business in a city. It grabs the name, phone, address, rating and website, then visits each website looking for an email, Instagram and Facebook. Export the lot to CSV.
 
----
-Built by bxzex (https://github.com/bxzex).
+It runs Playwright on your own machine:
+
+```bash
+npm install
+npx playwright install chromium
+npm run dev
+```
+
+Then open localhost:3000. Please use it within Google's terms and local rules on contacting businesses.
+
+Made by [bxzex](https://bxzex.com).
